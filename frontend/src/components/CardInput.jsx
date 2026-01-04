@@ -1,7 +1,4 @@
-/**
- * CardInput Component
- * Handles masked Visa card input with validation
- */
+
 
 import { useState } from 'react';
 import '../styles/CardInput.css';
@@ -10,25 +7,16 @@ function CardInput({ onSubmit, loading, t }) {
   const [cardNumber, setCardNumber] = useState('');
   const [error, setError] = useState('');
 
-  /**
-   * Formats card number with spaces (4111 XXXX XXXX 1111)
-   */
   const formatCardNumber = (value) => {
-    // Remove all non-digits
     const digits = value.replace(/\D/g, '');
     
-    // Limit to 16 digits
     const limited = digits.slice(0, 16);
     
-    // Format with spaces every 4 digits
     const formatted = limited.replace(/(.{4})/g, '$1 ').trim();
     
     return formatted;
   };
 
-  /**
-   * Validates card number
-   */
   const validateCard = (card) => {
     const cleanCard = card.replace(/\s/g, '');
     
@@ -47,18 +35,12 @@ function CardInput({ onSubmit, loading, t }) {
     return { valid: true };
   };
 
-  /**
-   * Handles input change
-   */
   const handleChange = (e) => {
     const formatted = formatCardNumber(e.target.value);
     setCardNumber(formatted);
     setError(''); // Clear error on input
   };
 
-  /**
-   * Handles form submission
-   */
   const handleSubmit = (e) => {
     e.preventDefault();
     

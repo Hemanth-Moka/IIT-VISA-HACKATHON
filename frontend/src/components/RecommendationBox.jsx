@@ -1,7 +1,4 @@
-/**
- * RecommendationBox Component
- * Displays AI-powered recommendation for best benefit
- */
+
 
 import '../styles/RecommendationBox.css';
 

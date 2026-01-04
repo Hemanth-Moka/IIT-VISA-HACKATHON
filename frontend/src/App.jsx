@@ -1,7 +1,3 @@
-/**
- * Main App Component
- * Visa Benefits AI Agent Demo Application
- */
 
 import { useState } from 'react';
 import CardInput from './components/CardInput';

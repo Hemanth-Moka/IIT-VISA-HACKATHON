@@ -1,14 +1,9 @@
-/**
- * BenefitsDashboard Component
- * Displays all available benefits in a card grid layout
- */
+
 
 import '../styles/BenefitsDashboard.css';
 
 function BenefitsDashboard({ benefits, t }) {
-  /**
-   * Gets icon emoji based on category
-   */
+
   const getCategoryIcon = (category) => {
     const icons = {
       Travel: '✈️',
