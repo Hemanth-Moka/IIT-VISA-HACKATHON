@@ -1,3 +1,7 @@
+/**
+ * Main App Component
+ * Visa Benefits AI Agent Demo Application
+ */
 
 import { useState } from 'react';
 import CardInput from './components/CardInput';
@@ -190,7 +194,7 @@ function App() {
       {/* Footer */}
       <footer className="app-footer">
         <p>{t('disclaimer')}</p>
-        <p>Visa Benefits AI Agent Demo - Hackathon Ready</p>
+        {/* <p>Visa Benefits AI Agent </p> */}
       </footer>
     </div>
   );
