@@ -1,0 +1,150 @@
+/**
+ * RecommendationBox Component Styles
+ */
+
+.recommendation-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+  color: white;
+}
+
+.recommendation-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.recommendation-header h2 {
+  color: white;
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.sparkle-icon {
+  font-size: 1.5rem;
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+    opacity: 0.8;
+  }
+}
+
+.recommended-benefit {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.benefit-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.badge-icon {
+  font-size: 1.5rem;
+}
+
+.badge-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+.recommendation-explanation {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.explanation-text {
+  color: white;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.estimated-savings {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.savings-label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.savings-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffeb3b;
+}
+
+.recommendation-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.detail-item {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.detail-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.detail-value {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .recommendation-box {
+    padding: 1.5rem;
+  }
+
+  .recommendation-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .recommendation-details {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+

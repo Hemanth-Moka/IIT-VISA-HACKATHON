@@ -1,0 +1,93 @@
+{
+  "Visa Platinum": [
+    {
+      "name": "Airport Lounge Access",
+      "terms": "2 free visits per quarter",
+      "category": "Travel",
+      "description": "Access to premium airport lounges worldwide"
+    },
+    {
+      "name": "Fuel Surcharge Waiver",
+      "terms": "1% waiver up to ₹500 per month",
+      "category": "Fuel",
+      "description": "Get fuel surcharge waived at petrol pumps"
+    },
+    {
+      "name": "Dining Benefits",
+      "terms": "15% cashback at select restaurants",
+      "category": "Food",
+      "description": "Enjoy cashback on dining at partner restaurants"
+    },
+    {
+      "name": "Travel Insurance",
+      "terms": "Coverage up to ₹10 lakhs",
+      "category": "Travel",
+      "description": "Complimentary travel insurance for domestic and international trips"
+    },
+    {
+      "name": "Movie Ticket Discount",
+      "terms": "Buy 1 Get 1 free on weekends",
+      "category": "Entertainment",
+      "description": "Enjoy BOGO offers at cinema halls"
+    },
+    {
+      "name": "Online Shopping Cashback",
+      "terms": "5% cashback on online purchases",
+      "category": "Shopping",
+      "description": "Get cashback on e-commerce transactions"
+    },
+    {
+      "name": "Gym Membership Discount",
+      "terms": "20% off on annual membership",
+      "category": "Lifestyle",
+      "description": "Discounted gym and fitness center memberships"
+    },
+    {
+      "name": "Railway Booking Discount",
+      "terms": "10% off on IRCTC bookings",
+      "category": "Travel",
+      "description": "Save on train ticket bookings"
+    }
+  ],
+  "Visa Signature": [
+    {
+      "name": "Premium Lounge Access",
+      "terms": "Unlimited visits per year",
+      "category": "Travel",
+      "description": "Unlimited access to premium airport lounges"
+    },
+    {
+      "name": "Fuel Surcharge Waiver",
+      "terms": "1% waiver up to ₹1000 per month",
+      "category": "Fuel",
+      "description": "Higher limit fuel surcharge waiver"
+    },
+    {
+      "name": "Fine Dining Rewards",
+      "terms": "20% cashback at premium restaurants",
+      "category": "Food",
+      "description": "Enhanced cashback on fine dining"
+    }
+  ],
+  "Visa Classic": [
+    {
+      "name": "Fuel Surcharge Waiver",
+      "terms": "1% waiver up to ₹250 per month",
+      "category": "Fuel",
+      "description": "Basic fuel surcharge waiver"
+    },
+    {
+      "name": "Dining Benefits",
+      "terms": "10% cashback at select restaurants",
+      "category": "Food",
+      "description": "Cashback on dining"
+    },
+    {
+      "name": "Movie Ticket Discount",
+      "terms": "Flat ₹50 off on movie tickets",
+      "category": "Entertainment",
+      "description": "Discount on cinema bookings"
+    }
+  ]
+}
+

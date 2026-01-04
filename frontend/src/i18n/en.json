@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Visa Benefits AI Agent",
+    "subtitle": "Discover your card benefits instantly"
+  },
+  "cardInput": {
+    "title": "Enter Your Visa Card",
+    "placeholder": "4111 XXXX XXXX 1111",
+    "submit": "Get Benefits",
+    "validating": "Validating...",
+    "error": {
+      "required": "Card number is required",
+      "invalid": "Invalid Visa card number",
+      "length": "Card must be 16 digits",
+      "prefix": "Visa cards start with 4"
+    }
+  },
+  "profile": {
+    "title": "Your Profile",
+    "profileType": "Profile Type",
+    "student": "Student",
+    "professional": "Professional",
+    "location": "Location",
+    "locationPlaceholder": "IIT Chennai",
+    "spending": "Spending Patterns",
+    "spendingPlaceholder": "food, travel, fuel"
+  },
+  "dashboard": {
+    "title": "Your Benefits",
+    "category": "Category",
+    "terms": "Terms",
+    "noBenefits": "No benefits found"
+  },
+  "recommendation": {
+    "title": "✨ Best Benefit For You",
+    "explanation": "This benefit is most useful for you because",
+    "savings": "Estimated Savings",
+    "benefit": "Benefit"
+  },
+  "disclaimer": "For awareness only. No real card data stored.",
+  "language": {
+    "english": "English",
+    "tamil": "Tamil"
+  }
+}
+
